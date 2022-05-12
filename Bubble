@@ -1,0 +1,20 @@
+Bubble Sort (A,N )
+
+//Here A is an unsorted array having N elements.
+
+1. Repeat For J = 1 to N
+
+2. Repeat For K = 1 to N-J
+
+3. If (A[K] > A[K+1]) Then
+
+4. Interchange A[K] and A[K+1]
+
+[End of If]
+
+[End of Step 2 For Loop]
+
+[End of Step 1 For Loop]
+
+5. Exit
+
