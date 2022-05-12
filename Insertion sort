@@ -1,0 +1,24 @@
+Insertion Sort (A,N ):
+
+// Here A is an unsorted array having N elements.
+
+1. Repeat For J = 2 to N
+
+2. Set TEMP = A[J]
+
+3. Set K = J - 1
+
+4. Repeat While (K >= 1) and (A[K] > TEMP)
+
+5. Set A[K+1] = A[K]
+
+6. Set K = K - 1
+
+[End of While Loop]
+
+6. Set A[K+1] = TEMP
+
+[End of For Loop]
+
+8. Exit
+
