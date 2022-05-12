@@ -1,0 +1,23 @@
+Selection Sort ( A,N)
+
+// Here A is an unsorted array having N elements.
+
+1. Repeat For J = 1 to N
+
+2. Set MIN = J
+
+3. Repeat For K = J+1 to N
+
+4. If (A[K] < A[MIN]) Then
+
+5. Set MIN = K
+
+[End of If]
+
+[End of Step 3 For Loop]
+
+6. Interchange A[J] and A[MIN]
+
+[End of Step 1 For Loop]
+
+7. Exit
